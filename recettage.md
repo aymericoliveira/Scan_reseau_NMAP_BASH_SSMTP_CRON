@@ -57,3 +57,15 @@ Comme le montre le screen ci-dessous, j'ai reçu automatique le rapport que j'ai
 
 
 ![test_nmap](./screens/ssmtp_scan/rapport_reception_mail.png)
+
+
+## 🛡️ Bonnes pratiques appliquées
+
+✔ Sécurisation du dossier de logs (**chmod 700**)  
+✔ Logs séparés et datés  
+✔ Script centralisé dans `/usr/local/bin`  
+✔ Variables propres et modifiables facilement  
+✔ Planning automatisé via cron  
+✔ Envoi automatique par mail  
+✔ Test manuel + recettage complet  
+✔ Installation minimaliste (**Nmap + bsd-mailx + sSMTP**)  
